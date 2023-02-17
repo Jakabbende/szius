@@ -1,0 +1,66 @@
+.menu { 
+    position: fixed;
+    width: 9%;
+    float: left;
+}
+
+.menu a{
+    text-decoration: none;
+    background-color: rgba(153, 153, 153, 0.082);
+    padding: 8px;
+    margin-top: 7px;
+    display: block;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    border-bottom: solid black 1px;
+    font-size: large;
+}
+
+body{
+    background-color: rgba(197, 197, 197, 0.349);
+}
+
+
+.hirek{
+    top: 0cm;
+    height: 3%;
+    text-align: center;
+    border-bottom: solid black 3px;
+}
+
+.hirek p{
+    font-size: 125%;
+}
+
+.main{
+    margin-left: 11%;
+    margin-top: 2%;
+}
+
+a img{
+    width: 205px;
+    box-shadow: 12px;
+}
+
+a img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+img:hover + h3{
+    font-size: x-large;
+    transition: 1s;
+}
+
+.felsorolas a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(65, 74, 88, 0.842);
+    text-align: center;
+    float: left;
+    width: fit-content;
+    padding: 55px;
+}
+
+
+
